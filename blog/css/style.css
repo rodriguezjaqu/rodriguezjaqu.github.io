@@ -220,10 +220,18 @@ nav a {
     padding: 1.25rem 2rem;
     font-size: 1.5rem;
     font-family: lato, Arial, sans-serif;
-    color: #333;
+    color: #148dd9;
+
+    
 }
+
 
 nav {
     border-top: 1px solid #333;
     border-bottom: 1px solid #333;
+    
+}
+
+nav a:focus, a:hover {
+text-decoration:underline
 }
